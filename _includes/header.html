@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html class="no-js" lang="">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <!-- Update all -->
+    <title>Rad-ish.</title>
+    <meta name="description" content="data + design. ideas + creations.">
+    <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+    <meta name="author" content="Megan Johns">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="{{ site.url }}/css/normalize.css" type="text/css" media="all">
+    <link rel="stylesheet" href="{{ site.url }}/css/main.css" type="text/css" media="all">
+	<link rel="stylesheet" href="{{ site.url }}/css/fonts.css" type="text/css" media="all">
+	<link rel="stylesheet" href="{{ site.url }}/css/style-front.css" type="text/css" media="all">
+	<script src="https://use.fontawesome.com/0813c58ada.js"></script>
+</head>
+<body class="home blog header-full-width full-width-content front-page" itemscope="" itemtype="http://schema.org/WebPage">
+    <div class="site-container">
+		<header class="site-header" itemscope="" itemtype="http://schema.org/WPHeader">
+			<div class="wrap">
+				<div class="title-area">
+					<h1 class="site-title" itemprop="headline"><a href="/index.html">Maker Pro</a></h1>
+				</div>
+				<button class="menu-toggle nav-primary" aria-expanded="false" aria-pressed="false" role="button"></button>
+				<nav class="nav-primary" itemscope="" itemtype="http://schema.org/SiteNavigationElement" aria-label="Main navigation">
+					<ul id="menu-header" class="menu menu-primary">
+						<li id="menu-item-1" class="menu-item {% if page.url == '/blog/' %}active{% endif %}">
+							<a href="/blog" itemprop="url"><span itemprop="name">Blog</span></a>
+						</li>
+						<li id="menu-item-2" class="menu-item {% if page.url == '/about/' %}active{% endif %}">
+							<a href="/about" itemprop="url"><span itemprop="name">About</span></a>
+						</li>
+						<li id="menu-item-3" class="menu-item menu-item-has-children {% if page.url == '/contact/' %}active{% endif %}">
+							<a href="/contact" itemprop="url"><span itemprop="name">Contact</span></a>
+							<button class="sub-menu-toggle" aria-expanded="false" aria-pressed="false" role="button"></button>
+							<ul class="sub-menu">
+								<li id="menu-item-3-1" class="menu-item">
+									<a href="" itemprop="url"><span itemprop="name">Menu Item 3-1</span></a>
+								</li>
+								<li id="menu-item-3-2" class="menu-item">
+									<a href="" itemprop="url"><span itemprop="name">Menu Item 3-2</span></a>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</nav>
+			</div>
+		</header>

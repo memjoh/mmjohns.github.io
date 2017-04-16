@@ -1,0 +1,24 @@
+---
+layout: default
+title: "Blog"
+---
+
+
+{% for post in site.posts %}
+	<div class="front-page-3">
+		<div class="three-fourths only widget-area">
+			<section class="widget">
+				<div class="widget-wrap">
+				<div class="textwidget">
+					<div class="one-third first">
+						<h3 class="widget-title entry-title"><a href="{{ post.url }}" rel="bookmark">{{ post.title }}</a></h3>
+						<p class="entry-meta"><span class="entry-categories"><a href="https://maker.designbybloom.co/category/blog/" rel="category tag">{{ post.category }}</a> ·</span> <time class="entry-time" itemprop="datePublished">{{ post.date || date_to_string }}</time> </p>
+					</div>
+					<div class="two-thirds">
+						<p>{{ post.descrip }}</p>
+					</div>
+				</div></div>
+			</section>
+		</div>
+	</div>
+{% endfor %}
