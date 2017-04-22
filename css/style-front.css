@@ -19,6 +19,10 @@
 		margin-bottom: 80px;
 	}
 
+	.posts .widget-area {
+		margin-bottom: 20px;
+	}
+
 	.flexible-widgets,
 	.flexible-widgets .featured-content.widget .widget-wrap {
 		margin-left: -10px;
@@ -58,7 +62,7 @@
  * ========================================================================== */
 
 .front-page-1 {
-	margin: 40px auto;
+	margin: 60px auto 0;
 }
 
 

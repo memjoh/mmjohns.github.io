@@ -690,6 +690,9 @@ img.alignright.entry-image {
 	border-bottom: 0;
 }
 
+.front-page-3.posts {
+    padding-top: 60px;
+}
 
 /*
  * Featured Content
@@ -1020,7 +1023,7 @@ nav .menu-primary .sub-menu .current-menu-item > a:hover {
 
 .footer-widgets .widget-area:first-child {
 	width: 100%;
-	margin: 0 auto 40px;
+	margin: 0 auto 20px;
 }
 
 .footer-widgets-2 .widget-title,
@@ -1031,7 +1034,8 @@ nav .menu-primary .sub-menu .current-menu-item > a:hover {
 }
 
 .footer-widgets .simple-social-icons ul li {
-	margin: 0px 24px 12px 0 !important;
+	margin: 0px 30px 12px 30px !important;
+    display: inline-block;
 }
 
 .footer-widgets .simple-social-icons ul li a {
@@ -1039,11 +1043,11 @@ nav .menu-primary .sub-menu .current-menu-item > a:hover {
 	border: 0px !important;
 }
 
-@media only screen and (min-width: 800px) {
+.footer-widgets .centered {
+    text-align: center;
+}
 
-	.footer-widgets .widget-area:first-child {
-		margin: 0 auto 100px;
-	}
+@media only screen and (min-width: 800px) {
 
 	.footer-widgets .enews form {
 		margin-left: -5px;
@@ -1125,6 +1129,10 @@ nav .menu-primary .sub-menu .current-menu-item > a:hover {
 .entry-title a {
 	color: #12302e;
 	border: 0;
+}
+
+.entry-title a:hover {
+	color: #57e5ae;
 }
 
 .entry-content ol,
