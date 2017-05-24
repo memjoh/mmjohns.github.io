@@ -2,6 +2,6 @@ permalink:   /articles/:title/
 highlighter: rouge
 markdown:    kramdown
 
-title: RAD-Ish
+title: rad/data
 url: "https://mmjohns.github.io/"
-description: "Research.Analysis.Design.Inform."
+description: "a place for data visualization, design, and analysis"
