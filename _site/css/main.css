@@ -178,6 +178,7 @@ h5 {
 
 h1, .front-page-1 .widget-title {
 	font-size: 40px;
+    margin-bottom: 40px;
 }
 
 h2 {
@@ -759,7 +760,7 @@ img.alignright.entry-image {
 }
 
 .site-title {
-	font-size: 20px;
+	font-size: 26px;
 	font-weight: 900;
 	line-height: 1.2;
 	margin: 0 auto;
@@ -773,10 +774,6 @@ img.alignright.entry-image {
 }
 
 @media only screen and (min-width: 800px) {
-
-	.site-header {
-		padding: 60px 0 50px;
-	}
 
 	.title-area {
 		margin-top: 12px;
