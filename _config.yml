@@ -3,5 +3,5 @@ highlighter: rouge
 markdown:    kramdown
 
 title: rad/data
-url: "https://mmjohns.github.io/"
+url: "https://memjoh.github.io/"
 description: "a place for data visualization, design, and analysis"
